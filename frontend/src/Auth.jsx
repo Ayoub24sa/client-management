@@ -27,8 +27,8 @@ function Auth({ onLogin }) {
 
     try {
       const endpoint = isRegister
-        ? "http://localhost:5000/api/auth/register"
-        : "http://localhost:5000/api/auth/login";
+  ? "https://client-management-ebon.vercel.app/api/auth/register"
+  : "https://client-management-ebon.vercel.app/api/auth/login";
 
       const body = isRegister
         ? {
